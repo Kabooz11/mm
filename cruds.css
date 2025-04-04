@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #000000;
+width: 100%;
+color: #f0f0f0;
+}
+.containar{
+width: 80%;
+margin: auto;
+}
+header{
+color: #f0f0f0;
+    text-align: center;
+    margin-top: 5px;
+    text-transform: uppercase;
+    /* for H3 */
+h3{
+        margin-top: 10px;
+        color:#b88787 ;
+    }
+}
+input{
+    color: #cccccc;
+}
+.inputs{
+    text-align: center;
+    margin-top: 2%;
+    /* for tittle */
+    #tittle{
+width: 100%;
+padding: 10px;
+background: #202020;
+border: none;
+border-radius: 5px;
+font-size: 15 px;
+    }
+}
+.price{
+    margin-top: 1%;
+display: flex;
+/* for price */
+#price{
+width: 20%;
+padding: 8px;
+    background: #202020;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+/* for ads */
+#ads{
+width: 20%;
+padding: 8px;
+    background: #202020;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+/* for taxes */
+#taxes{
+width: 20%;
+padding: 8px;
+    background: #202020;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+/* for discount */
+#discount{
+width: 20%;
+padding: 8px;
+    background: #35345e;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    margin-right: 10px;
+}
+#tottal{
+    text-transform: capitalize;
+    background: #7a291b;
+    padding: 5px;
+    color: #cccccc;
+    border-radius: 3px;
+    font-size: 17px;
+    text-align: center;
+    align-items: center;
+    width: 20%;
+    
+}
+}
+#count{
+    margin-top: 1%;
+                width: 100%;
+                padding: 10px;
+                background: #202020;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+}
+#category{
+    margin-top: 1%;
+                width: 100%;
+                padding: 10px;
+                background: #202020;
+                border: none;
+                border-radius: 5px;
+                font-size: 15px;
+}
+#creat{
+    margin-top: 1%;
+                width: 100%;
+                padding: 10px;
+                background: #7a291b;
+                border: none;
+                border-radius: 15px;
+                font-size: 15px;
+                color: #f5f3f3;
+                cursor: pointer;
+}
+input::placeholder {
+    color: #c2bcbc;
+    text-transform: capitalize;
+}
+input:focus {
+scale: 1.1;
+transition: 0.6s;
+letter-spacing: 2px;
+background: #000;
+}
+#search{
+        margin-top: 1%;
+            width: 100%;
+            padding: 10px;
+            background: #363636;
+            border: none;
+            border-radius: 5px;
+            font-size: 15px;
+}
+.btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+#se{
+        width: 49.5%;
+        padding: 10px;
+        background: #7a291b;
+        border: none;
+        border-radius: 15px;
+        font-size: 15px;
+        color: #f5f3f3;
+        cursor: pointer;
+}
+button:hover{
+    /* scale: 1.1; */
+    transition: 0.6s;
+    letter-spacing: 2px;
+
+}
+#de{
+    margin-top: 1%;
+            width: 100%;
+                padding: 10px;
+                background: #471810;
+                border: none;
+                border-radius: 15px;
+                font-size: 15px;
+                color: #f5f3f3;
+                cursor: pointer;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    text-transform: capitalize;
+}
+table th{
+    background: rgb(56, 11, 11);
+    padding: 3px;
+}
+table td{
+    background: #44130a;
+    padding: 3px;
+}
+#btn{
+    text-transform: capitalize;
+            width: 100%;
+                padding: 8px;
+                background: #1B365D;
+                border: none;
+                border-radius: 6px;
+                font-size: 15px;
+                color: #e0e0e0;
+                cursor: pointer;
+}
+#btn:hover{
+    transition: 0.6s;
+    letter-spacing: 0px;
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cruds</title>
+        <link rel="stylesheet" href="cruds.css">
+    </head>
+    <body>
+        <div class="containar">
+            <header>
+                <h1> Cruds</h1>
+                <h3> product management system </h3>
+            </header>
+            <div class="inputs">
+                <input id="tittle" type="text" placeholder="Tittle">
+                <div class="price">
+                    <input onkeyup="tottalprice()" id="price" type="number"
+                        placeholder="price">
+                    <input onkeyup="tottalprice()" id="ads" type="number"
+                        placeholder="Ads">
+                    <input onkeyup="tottalprice()" id="taxes" type="number"
+                        placeholder="Taxes">
+                    <input onkeyup="tottalprice()" id="discount" type="number"
+                        placeholder="Disc">
+                    <small id="tottal"> totle:</small>
+                </div>
+                <input id="count" type="text" placeholder="Count">
+                <input id="category" type="text" placeholder="Category">
+                <button type="submit" id="creat">Create</button>
+                <input id="search" type="text " placeholder="Search">
+                <div class="btns">
+                    <button id="se"> Search By Tittle</button>
+                    <button id="se"> Search By Category</button>
+                </div>
+                <div id="deleteall">
+                    
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID </td>
+                        <th> tittle </th>
+                        <th> price </th>
+                        <th> taxes </th>
+                        <th> ads </th>
+                        <th> discount </th>
+                        <th> total </th>
+                        <th> category </th>
+                        <th> update </th>
+                        <th> delete </th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+
+                </tbody>
+            </table>
+        </div>
+        <script src="cruds.js"></script>
+    </body>
+</html>
